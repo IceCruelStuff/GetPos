@@ -10,18 +10,18 @@ use pocketmine\utils\TextFormat as c;
 
 class GetPos extends PluginBase {
 
-	public function onEnable(){
+	public function onEnable() : void{
 	$this->getLogger()->info("GetPos enabled.");
 		return true;
 	}
 	
 
-	public function onLoad(){
+	public function onLoad() : void{
 		$this->getLogger()->info("GetPos loaded");
 	}
 	
 
-	public function onCommand(CommandSender $sender, Command $command, $label, array $args){
+	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
 		switch($command->getName()){
 			case "getpos":
 				if($sender instanceof Player){
@@ -46,7 +46,7 @@ class GetPos extends PluginBase {
 	}    
 
 	
-    public function onDisable(){
+    public function onDisable() : void{
         $this->getLogger()->info("GetPos disabled.");
         return true;
 	}
