@@ -12,7 +12,6 @@ class GetPos extends PluginBase {
 
 	public function onEnable() : void{
 	$this->getLogger()->info("GetPos enabled.");
-		return true;
 	}
 	
 
@@ -48,6 +47,5 @@ class GetPos extends PluginBase {
 	
     public function onDisable() : void{
         $this->getLogger()->info("GetPos disabled.");
-        return true;
 	}
 }
