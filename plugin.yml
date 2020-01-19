@@ -1,5 +1,5 @@
-name: GPS
-main: GPS\GPS
+name: GetPos
+main: GetPos\GetPos
 author: IceCruelStuff
 version: 1.5.1
 api: 1.4.0
@@ -9,9 +9,9 @@ commands:
  getpos:
   description: Gives your current coordinates
   usage: "/getpos"
-  permission: gps.command.gps
+  permission: pos.command.pos
   
 permissions:
- gps.command.gps:
+ pos.command.pos:
   description: Gives your current coordinates
   default: true
