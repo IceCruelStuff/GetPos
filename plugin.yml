@@ -2,7 +2,7 @@ name: GetPos
 main: GetPos\GetPos
 author: IceCruelStuff
 version: 1.5.1
-api: 1.4.0
+api: 3.0.0, 4.0.0
 
 load: POSTWORLD
 commands:
