@@ -8,7 +8,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat as c;
 
-class GPS extends PluginBase {
+class GetPos extends PluginBase {
 
 	public function onEnable(){
 	$this->getLogger()->info("GetPos enabled.");
