@@ -35,6 +35,7 @@ class GetPos extends PluginBase {
                     $sender->sendMessage("This command only works in-game.");
                 }
         }
+        return false;
     }    
 
     public function onDisable() : void {
